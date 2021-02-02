@@ -1,0 +1,249 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1f2528;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 20px;
+    align-items: center;
+  }
+  .content {
+    max-width: 1500px;
+    margin: auto;
+  }
+  .logo {
+    width: 15%;
+    padding-top: 20px;
+  }
+  .flex-containerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .topnav a {
+    color: #4682b4;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+  .topnav a:hover {
+    color: #ff4040;
+    }
+  hr.dashed {
+    border-top: 1px dashed #f2bd1e;
+    width: 70%;
+    align-items: center;
+    }
+  .heroimg {
+    height: 600px;
+    padding-right: 100px;
+  }
+  .flex-containerBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: auto;
+  }
+  .bottomnavimg {
+      height: 30px;
+      padding: 20px;
+  }
+  h1 {
+    font-size: 40px;
+    color: #ff4040;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  h3 { 
+      font-size: 18px;
+      font-weight:100;
+  }
+  h6 {
+    font-size: 11px;
+    text-align: center;
+  }
+  p {
+    width: 50%;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  a:link, a:visited{
+    text-decoration: none;
+  }
+  a:hover, a:active{
+    text-decoration: none;
+  }
+  button {
+    align-items: center;
+    text-align: center;
+    padding: 8px 16px;
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    border: 0.5px solid #1F2528;
+    background-color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  button:visited {
+    align-items: center;
+    text-align: center;
+    padding: 8px 16px;
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    border: 0.5px solid #1F2528;
+    background-color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  button:hover {
+    background-color: #FF4040;
+    border: none;
+    color: white;
+    text-decoration: none;
+  }
+  button:active {
+    background-color: #FF4040;
+    border: none;
+    color: white;
+    text-decoration: none;
+  }
+
+  .skillsimg {
+      height: 200px;
+      padding: 30px 100px 30px;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    vertical-align: auto;
+    text-align: center;
+  }
+  .flex-containerBody {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+  }
+.aboutme {
+  width: 30%;
+  height: auto;
+}
+
+.arrowimg {
+  height: 110px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+.flex-containerCS {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  vertical-align: auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.casestudy {
+  columns: 2;
+  padding-left: 50px;
+}
+.flex-containerCSpage {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.flex-containerCStitle {
+  flex-direction: column;
+  text-align: left;
+  padding-left: 300px;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+}
+.flex-containerCStitleR {
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  height: 460px;
+}
+.flex-containerCenter {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.csimg {
+  height: 400px;
+  padding: 30px 100px 30px;
+  transform: rotate(15deg);
+}
+.csimgL {
+  height: 400px;
+  padding: 30px 100px 30px;
+  transform: rotate(-15deg);
+  padding-left: 350px;
+}
+.casestudyimg {
+  width: 1500px;
+  align-items: center;
+}
+#myBtn {
+  align-items: center;
+  text-align: center;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 8px 16px;
+  width: 150px;
+  height: 38px;
+  border: 0.5px solid #1F2528;
+  background-color: white;
+   box-sizing: border-box;
+}
+
+#myBtn:hover {
+  background-color: #ff4040;
+  color: white;
+  border: none;
+}
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.preloader img {
+  animation: spin 3s ease;
+  transition: all;
+  width: 150px;
+  margin: 0 auto;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
